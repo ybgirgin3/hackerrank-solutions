@@ -21,9 +21,12 @@ int main() {
   cout << a << endl;
   cout << b << endl;
   cout << c << endl;
-  cout << d << endl;
-  cout << e << endl;
 
+  cout.precision(3);
+  cout << fixed << d << endl;
+
+  cout.precision(3);
+  cout << fixed << e << endl;
 
   return 0;
 }
